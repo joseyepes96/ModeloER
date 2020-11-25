@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96E814E1-7E16-C1F3-E4C3-0A85F74EE997" name="MARCA">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-16 00:28:52 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MA_Codigo" id="2421F443-4482-6364-A0EC-AAB5E7B6B608">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-16 00:29:37 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MA_Nombre" id="94BF53EB-1B9F-684B-36C2-057962292C41">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-16 00:29:46 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MA_Tipo" id="8B3BB130-8609-1D29-1A73-534D44EEF8EA">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-16 00:29:52 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MA_Propia" id="83DC625B-EF83-15ED-EC4B-88FFEB8FF2C5">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-17 17:58:03 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MA_Descripcion" id="40A7A950-2587-85CB-A888-B3553A8B9177">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-16 00:30:26 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1AE8EF4B-865D-E01D-DECC-99576FC7065D" name="MARCA PK">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-16 00:31:44 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2421F443-4482-6364-A0EC-AAB5E7B6B608</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C1C3DD3-CA3E-CCE0-2DAB-93C07D343842" name="DEPARTAMENTO">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 16:18:01 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DE_Codigo" id="401C6A5F-1FF7-F53B-0FB7-BC1D78D4DD6E">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 16:20:12 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DE_Nombre" id="8A9BF943-0759-D900-AFD7-AB51ED5DD701">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 16:20:27 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DE_Tipo" id="188F3FBF-3FE8-7BD2-3E7A-975D193AAFFD">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 16:20:35 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LU_Codigo" id="B9CE785B-2C1E-8E97-EE2D-5F3782225535">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 16:48:01 UTC</createdTime>
+<generatorID>159F42C7-5D3D-485A-29D6-D95310AB37C3</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>46BA819B-1B83-FD82-12F8-EB508F4BD327</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DE_Direccion" id="4100FEBE-05D1-6821-E606-9CFE05854398">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 16:52:49 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TI_Codigo" id="1887D6C4-3EC1-2585-7387-BB17A932989E">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 17:36:30 UTC</createdTime>
+<generatorID>E57B0081-CFB3-CD1C-DC5E-AF0CC4C13663</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BF50BA77-F54F-528F-F858-AF0B6CF48019</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="433CA0B6-FBF2-1B82-7734-D794C18193A3" name="DEPARTAMENTO PK">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 16:20:26 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>401C6A5F-1FF7-F53B-0FB7-BC1D78D4DD6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

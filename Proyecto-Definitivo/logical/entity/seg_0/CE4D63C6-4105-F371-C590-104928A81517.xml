@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE4D63C6-4105-F371-C590-104928A81517" name="PROVEEDOR">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PR_Rif" id="29CC7CF5-967A-A241-9EEA-2B9DD9B2A7C5">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<importedID>84FB3EEB-F3D4-149C-5EF9-1ECD28F1701D</importedID>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR_Razon_Social" id="39B624D7-87A0-1D6A-1BCA-71639E3F9F68">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<importedID>27999B67-EEFE-C202-E48C-9EA1B5BCD2C4</importedID>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR_Denominacion_Comercial" id="B0CBCE9E-0C6F-F113-2696-48B5F07A3A89">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<importedID>04E64887-C9DE-9936-A024-B07B5BA9650C</importedID>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR_Pag_Web" id="3FB8BE84-7CBA-29A0-82EC-85D347116293">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<importedID>0F3EF760-D56C-2DDD-2AFF-498518E71FB0</importedID>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E790F85-C4FB-5A0C-9EBC-A3D5C0C6C80F" name="PROVEEDOR PK">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>29CC7CF5-967A-A241-9EEA-2B9DD9B2A7C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

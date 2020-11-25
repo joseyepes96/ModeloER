@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA5D22C2-F348-FDB6-CA10-82649245C916" name="PASILLO">
+<createdBy>Jose Yepes</createdBy>
+<createdTime>2020-11-24 03:48:18 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PA_Anaquel" id="EBE65C7D-4498-75BE-C2A7-A1C00FD23AED">
+<createdBy>Jose Yepes</createdBy>
+<createdTime>2020-11-24 04:37:12 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR_Codigo" id="AE2EB13A-95AD-A4FD-33CC-901A02D091EE">
+<createdBy>Jose Yepes</createdBy>
+<createdTime>2020-11-24 05:02:14 UTC</createdTime>
+<generatorID>2C926BFB-C9C9-416D-FF62-8EB65AFF9F41</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>3DF9579A-FED7-13DE-E68D-C7D5E5CB214E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TI_Codigo" id="793D9C14-09E8-D958-C754-2AEF1F849BA0">
+<createdBy>Jose Yepes</createdBy>
+<createdTime>2020-11-24 05:02:14 UTC</createdTime>
+<generatorID>2C926BFB-C9C9-416D-FF62-8EB65AFF9F41</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>2D9FEA2D-753D-491A-C313-EAF0901517F4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PA_Disponible" id="4FF04450-06B3-1500-DBF2-D8BAA73C93C7">
+<createdBy>Jose Yepes</createdBy>
+<createdTime>2020-11-24 05:26:36 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88FA9EC3-0351-FCEE-0674-A50F94D2FB30" name="PASILLO PK">
+<createdBy>Jose Yepes</createdBy>
+<createdTime>2020-11-24 05:29:53 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE2EB13A-95AD-A4FD-33CC-901A02D091EE</attributeRef>
+<attributeRef>793D9C14-09E8-D958-C754-2AEF1F849BA0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="97ECF04F-A25B-8C21-37F3-3B487C6BD50F" name="PR_LU">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 21:06:43 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LU_Codigo" id="7C8E38BD-FD9B-81CC-C13E-E68F14C13C7D">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 21:06:59 UTC</createdTime>
+<generatorID>59B2B123-B02F-4924-1E25-01EA9670EF97</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>46BA819B-1B83-FD82-12F8-EB508F4BD327</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR_Rif" id="A5FD0252-3641-50B1-D3A7-86BBF0797B31">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 21:07:06 UTC</createdTime>
+<generatorID>BA9ABCCF-F629-E18E-7BFE-084BA1C4C2B8</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>29CC7CF5-967A-A241-9EEA-2B9DD9B2A7C5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7AEEAC0C-6479-B7D5-BFFB-945F3A1E84D6" name="PR_LU PK">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 21:06:59 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C8E38BD-FD9B-81CC-C13E-E68F14C13C7D</attributeRef>
+<attributeRef>A5FD0252-3641-50B1-D3A7-86BBF0797B31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

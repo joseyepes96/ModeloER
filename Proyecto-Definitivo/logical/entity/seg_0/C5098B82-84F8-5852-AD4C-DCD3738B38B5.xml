@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5098B82-84F8-5852-AD4C-DCD3738B38B5" name="TIENDA">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:08:44 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TI_Codigo" id="BF50BA77-F54F-528F-F858-AF0B6CF48019">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:53:32 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TI_Nombre" id="C7953EA6-4963-ABC1-859C-2B614BD64169">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:53:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TI_Direccion" id="C0DB1CC3-9924-82AC-FD50-B11CFE83A7F7">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:54:16 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TI_Descripcion" id="DB2A686E-6F16-5C2F-47DF-67D0899F96A8">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:54:08 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LU_Codigo" id="7BDB8251-BAE6-6DF5-3B83-88344125D7F6">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-16 00:19:58 UTC</createdTime>
+<generatorID>001E8B79-F106-EA76-8E31-359CA43C384B</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>46BA819B-1B83-FD82-12F8-EB508F4BD327</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C115A35-D3E6-132F-77C2-287848D56481" name="TIENDA PK">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:53:50 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF50BA77-F54F-528F-F858-AF0B6CF48019</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

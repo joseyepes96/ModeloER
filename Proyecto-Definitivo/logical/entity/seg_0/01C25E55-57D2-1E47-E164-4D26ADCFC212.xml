@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01C25E55-57D2-1E47-E164-4D26ADCFC212" name="PRODUCTO">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:08:55 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PR_Codigo" id="94F6E93B-0385-58D4-60D8-DE8904E3A01C">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:11:19 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR_Nombre" id="919AF32B-0B50-ECFE-910B-2661EA5804DE">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:11:20 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR_Alimenticio" id="9C8EF0B4-9526-A27F-0F5D-63CD5E9AB02F">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:11:20 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR_Precio" id="1230CF0F-3CF4-F4B4-256E-0746AB25D6D0">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:11:20 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR_Calidad" id="AB364290-EC1D-F6D6-5B7A-17F72EFB9CC6">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-17 00:10:19 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR_Descripcion" id="E1421A27-9797-E2CB-F91D-81C39E850003">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:16:23 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MA_Codigo" id="0FB3761C-532E-9107-EC29-015296AEE009">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-16 00:31:44 UTC</createdTime>
+<generatorID>E00D6343-235B-118B-5AF5-D17A2B431351</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>2421F443-4482-6364-A0EC-AAB5E7B6B608</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85313226-2237-D428-D801-2779610A40F6" name="PRODUCTO PK">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:11:41 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>94F6E93B-0385-58D4-60D8-DE8904E3A01C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

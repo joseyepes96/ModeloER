@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="063D8B13-3D15-9D3F-3576-0297CFC89978" name="CPRREO_ELECTRONICO">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-17 19:42:06 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CO_Codigo" id="3E8863B4-5E99-5138-2070-149BDCAFD082">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-17 19:42:38 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CO_Direccion" id="EF0BA3BD-9907-C016-07A5-E12A6EF3A20A">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-17 19:51:22 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CL_Codigo1" id="324F4475-1B14-C730-637A-CB0CC3A4110A">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-23 16:15:50 UTC</createdTime>
+<generatorID>9CB4D5D0-42F1-EEED-A78B-28FA86359DEC</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>94A3AF70-7602-97D9-FA50-899580A51639</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CL_Codigo2" id="348CD1D5-5CF4-895F-DBA7-2F90E2A76A17">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-23 16:15:50 UTC</createdTime>
+<generatorID>23011E46-CCC1-8774-86DC-550204E2EC91</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>94A3AF70-7602-97D9-FA50-899580A51639</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR_Rif" id="321F9D4B-53BB-B039-8505-1980C8A34A37">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-23 16:15:50 UTC</createdTime>
+<generatorID>D9B3E823-4A2C-DE53-2CC0-C4FB1AE8E5E4</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>29CC7CF5-967A-A241-9EEA-2B9DD9B2A7C5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

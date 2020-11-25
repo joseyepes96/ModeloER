@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="505550C3-01D1-5F65-7054-F90AB79D8C6D" name="ZONA">
+<createdBy>Jose Yepes</createdBy>
+<createdTime>2020-11-24 03:40:35 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ZO_Nombre" id="B987C982-8466-1FCD-5A9D-1116FF100359">
+<createdBy>Jose Yepes</createdBy>
+<createdTime>2020-11-24 03:40:45 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR_Codigo" id="3DF9579A-FED7-13DE-E68D-C7D5E5CB214E">
+<createdBy>Jose Yepes</createdBy>
+<createdTime>2020-11-24 03:41:22 UTC</createdTime>
+<generatorID>A8715FCB-6352-6A2A-1052-0D57711D8870</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>1FA99246-4582-64CD-E2F4-2B9B3CD53AA8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TI_Codigo" id="2D9FEA2D-753D-491A-C313-EAF0901517F4">
+<createdBy>Jose Yepes</createdBy>
+<createdTime>2020-11-24 03:41:22 UTC</createdTime>
+<generatorID>A8715FCB-6352-6A2A-1052-0D57711D8870</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>DB4F6286-FDEC-BB2A-6AB9-C5AC0216F495</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B8388C8-94B8-D0FD-7A79-DDC99487C9CD" name="ZONA PK">
+<createdBy>Jose Yepes</createdBy>
+<createdTime>2020-11-24 03:50:13 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3DF9579A-FED7-13DE-E68D-C7D5E5CB214E</attributeRef>
+<attributeRef>2D9FEA2D-753D-491A-C313-EAF0901517F4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

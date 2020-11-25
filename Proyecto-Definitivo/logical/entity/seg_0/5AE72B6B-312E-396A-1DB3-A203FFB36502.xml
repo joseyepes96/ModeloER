@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5AE72B6B-312E-396A-1DB3-A203FFB36502" name="MÉTODO_DE_PAGO">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MP_Codigo" id="E9E8EBA2-F55E-BD31-F621-CBD91E9AB6F4">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<importedID>9F1CFF47-A7D9-1F26-7505-FE0C910CEE81</importedID>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MP_Nombre" id="518F0DEE-9FB2-A73D-3843-CB90BF60E3EC">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-23 17:14:55 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MP_Descripción" id="8CA2BEBA-D514-ABC0-9ECD-FC080F4CB2A5">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<importedID>6C8F6E61-4301-61A1-201E-A14678DA595C</importedID>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MP_Monto" id="18B0A2D2-E111-4384-E397-59A259A239DA">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-23 20:00:50 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MP_Fecha" id="C80AB615-73D0-B3C7-0228-425ADA7BB8F7">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-23 20:01:06 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB1E378F-7E2F-F8FF-7B2C-02ED7823F363" name="MÉTODO_DE_PAGO PK">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E9E8EBA2-F55E-BD31-F621-CBD91E9AB6F4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

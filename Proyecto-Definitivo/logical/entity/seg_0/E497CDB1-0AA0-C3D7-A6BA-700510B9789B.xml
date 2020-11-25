@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E497CDB1-0AA0-C3D7-A6BA-700510B9789B" name="TARJETA">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>5AE72B6B-312E-396A-1DB3-A203FFB36502</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TA_Tipo" id="75A41ADC-64FB-7D2D-E111-5EA980A98108">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<importedID>E2F3B702-8F94-C791-6C48-53A0A1BFD755</importedID>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

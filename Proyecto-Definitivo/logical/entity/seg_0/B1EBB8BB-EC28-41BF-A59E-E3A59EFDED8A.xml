@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1EBB8BB-EC28-41BF-A59E-E3A59EFDED8A" name="LUGAR">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:55:13 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LU_Codigo" id="46BA819B-1B83-FD82-12F8-EB508F4BD327">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:56:01 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LU_Nombre" id="0A97CD19-F3A0-6AC8-87C1-2694AAB6C36D">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:56:13 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LU_Tipo" id="9280130D-F276-093D-5A08-596DDF6D0227">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:58:29 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LU_Descripcion" id="65159DF5-4025-06EF-74FF-4034C35A1CF2">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:56:22 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LU_Codigo1" id="854B8F3F-7351-864E-D6F3-CD2175E659D5">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:58:49 UTC</createdTime>
+<generatorID>A62CA0AC-5435-3EB8-306C-04A30A062DD6</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>46BA819B-1B83-FD82-12F8-EB508F4BD327</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31912E8C-2350-CC6D-0AD3-D18498BD2760" name="LUGAR PK">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-15 23:58:39 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>46BA819B-1B83-FD82-12F8-EB508F4BD327</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

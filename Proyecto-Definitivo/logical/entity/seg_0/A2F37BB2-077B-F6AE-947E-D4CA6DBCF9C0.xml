@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2F37BB2-077B-F6AE-947E-D4CA6DBCF9C0" name="PUNTO">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PU_Código" id="BE696FBE-5597-221A-3C7B-213075DA0191">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<importedID>1CFC1BE8-54DD-FCB8-CF0A-B3DCE6D1FC06</importedID>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PU_Valor_Punto" id="6469944D-A830-8C0C-3A72-9B9D662B02E4">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<importedID>C9E4D576-E57B-35CE-2E6C-E2328C75C369</importedID>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PU_Descripcion" id="A5DF926B-CEF5-D4E5-F541-93642FB64B1C">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<importedID>F25FACF2-2779-0C39-DFA5-8B6ED29D9FCA</importedID>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MP_Codigo" id="7CE4A7D7-E730-EA79-C06F-EA069FBEB1AB">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<generatorID>0177B49D-5B90-5B71-5396-32D135A4AC75</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<importedID>2B6A633B-B087-FFE7-540F-3644CF596580</importedID>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>E9E8EBA2-F55E-BD31-F621-CBD91E9AB6F4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1687B0C-E0A4-BF26-700F-C294D8E6950A" name="PUNTO PK">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:09:51 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE696FBE-5597-221A-3C7B-213075DA0191</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

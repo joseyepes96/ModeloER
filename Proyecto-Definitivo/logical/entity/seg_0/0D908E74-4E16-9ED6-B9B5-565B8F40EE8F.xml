@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D908E74-4E16-9ED6-B9B5-565B8F40EE8F" name="PERSONA_CONTACTO">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-18 21:54:00 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CL_Codigo" id="57AE20D6-82D7-D56B-8F95-E76905E40789">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-18 21:54:36 UTC</createdTime>
+<generatorID>A80F1E67-9BCB-B68B-FAE1-5F45D48D2EFA</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>94A3AF70-7602-97D9-FA50-899580A51639</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PE_Codigo" id="ED8E66F6-745E-5151-7A0F-6A5E3E20CA40">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-18 22:49:17 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PE_Cedula" id="A0317889-CEC1-1C09-6770-E6726A6A03EF">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-18 22:48:27 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PE_1er_Nombre" id="0280C74E-379C-844A-4879-CB0C36AEBCE1">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-18 22:15:16 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PE_2do_Nombre" id="D313D1CD-177C-BA45-10E4-6FBE62BC4993">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-18 22:15:35 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PE_1er_Apellido" id="898A23FC-A038-1574-C77B-44E4A748CFC6">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-18 22:47:58 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PE_2do Apellido" id="1BA8675E-DB26-3B72-FF15-10EBC74314A8">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-18 22:48:16 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PR_Rif" id="D5BA66AE-8310-6AF8-A521-CB0AA66B764B">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-23 16:15:50 UTC</createdTime>
+<generatorID>2E37860C-CC90-239C-F73F-8194C5F0D5BC</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>29CC7CF5-967A-A241-9EEA-2B9DD9B2A7C5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C59A869-34F3-DA6B-237D-876B28F8685F" name="PERSONA_CONTACTO PK">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-18 22:49:24 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ED8E66F6-745E-5151-7A0F-6A5E3E20CA40</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

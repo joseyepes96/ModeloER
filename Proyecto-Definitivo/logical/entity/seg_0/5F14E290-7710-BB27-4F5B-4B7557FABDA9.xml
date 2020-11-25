@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F14E290-7710-BB27-4F5B-4B7557FABDA9" name="PR_MA">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:58:35 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PR_Rif" id="1A5FD6E1-816C-2765-371C-52CF62BD4A5E">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:59:15 UTC</createdTime>
+<generatorID>62C73CBF-E25E-0AE8-6FB9-E3AC09394D98</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>29CC7CF5-967A-A241-9EEA-2B9DD9B2A7C5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MA_Codigo" id="239B13FC-0A55-072B-0D9A-94AE87F2BC91">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:59:19 UTC</createdTime>
+<generatorID>EEDBF349-0BEA-C2AC-F13F-FF6463D5650C</generatorID>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<referedAttribute>2421F443-4482-6364-A0EC-AAB5E7B6B608</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clasificacion" id="DC392FCD-21C6-C10F-C4F8-71A7528F15BA">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:59:34 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58F13D2D-18DB-753A-EFCF-130A8769B9E8" name="Entity_31 PK">
+<createdBy>Jose</createdBy>
+<createdTime>2020-11-22 20:59:15 UTC</createdTime>
+<ownerDesignName>Proyecto-Definitivo</ownerDesignName>
+<engineerTo>
+<item key="D07AB13A-0726-0A83-D93C-AC9EBC25E276" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A5FD6E1-816C-2765-371C-52CF62BD4A5E</attributeRef>
+<attributeRef>239B13FC-0A55-072B-0D9A-94AE87F2BC91</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
