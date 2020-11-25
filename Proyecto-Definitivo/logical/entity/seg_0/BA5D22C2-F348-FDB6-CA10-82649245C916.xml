@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA5D22C2-F348-FDB6-CA10-82649245C916" name="PASILLO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA5D22C2-F348-FDB6-CA10-82649245C916" name="PASILLO1">
 <createdBy>Jose Yepes</createdBy>
 <createdTime>2020-11-24 03:48:18 UTC</createdTime>
 <ownerDesignName>Proyecto-Definitivo</ownerDesignName>
